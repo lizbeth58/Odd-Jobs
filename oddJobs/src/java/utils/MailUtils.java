@@ -42,7 +42,7 @@ public class MailUtils {
         message.setContent(body, "text/html");
         
         Transport transport = session.getTransport("smtp");
-        transport.connect("smtp.gmail.com", "oddjobstest123@gmail.com", "Testing12");
+        transport.connect("smtp.gmail.com", "oddjobstest123@gmail.com", "");
         transport.sendMessage(message, message.getAllRecipients());
         transport.close();
         
