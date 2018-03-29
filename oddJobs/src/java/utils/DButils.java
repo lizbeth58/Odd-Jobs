@@ -20,8 +20,8 @@ import java.util.List;
  */
 public class DButils {
     private static final String dbURL = "jdbc:mysql://localhost:3306/oddJobs";
-    private static final String username = "root";
-    private static final String pword = "F123ed0m4!";
+    private static final String username = "";
+    private static final String pword = "";
     
     public static void setPost(entryBean entry){
         
